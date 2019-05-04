@@ -48,12 +48,12 @@ vTipoEvento varchar (50))
 
 create table Asientos(
 iIdAsiento integer NOT NULL primary key,
-iIdArea integer,
-iCantidad integer)
+iIdArea integer)
 
 create table Area(
 iIdAr integer NOT NULL primary key,
 vNomArea varchar (50),
+iCantidad integer,
 mPrecio money)
 
 create table Conciertos(
